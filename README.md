@@ -2,7 +2,7 @@
 
 A modern Todo Notes application built with **React.js** and a backend API. Manage your tasks with title, description, tags, due dates, and status updates — all with a beautiful, responsive UI and dark mode support.
 
-[Live Demo →](https://your-live-demo-link.com)
+[Live Demo →](https://utilers.netlify.app/)
 
 ---
 
@@ -22,9 +22,7 @@ A modern Todo Notes application built with **React.js** and a backend API. Manag
 
 ## 🚀 Live Demo
 
-[🌐 View Live Demo](https://your-live-demo-link.com)
-
-_(Replace the URL above with your actual deployed link.)_
+[🌐 View Live Demo](https://utilers.netlify.app/)
 
 ---
 
@@ -46,7 +44,6 @@ _(Replace the URL above with your actual deployed link.)_
    git clone https://github.com/your-username/todo-frontend.git
    cd todo-frontend
    ```
-
 
 2. Install dependencies:
 
