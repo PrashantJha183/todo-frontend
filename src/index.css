@@ -1,0 +1,23 @@
+/* Tailwind's base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.light-theme {
+  background: linear-gradient(to bottom right, #ffe4e6, #ffffff, #ffe4e6);
+  color: #333;
+}
+
+html.light-theme .light-bg {
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.7),
+    #ffe4e6,
+    rgba(255, 255, 255, 0.7)
+  );
+}
+
+html,
+body {
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
