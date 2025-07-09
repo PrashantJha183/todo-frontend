@@ -138,7 +138,7 @@ export const Login = () => {
           bg-gradient-to-br
           from-pink-100 via-white to-pink-50
           dark:from-gray-900 dark:via-gray-800 dark:to-gray-900
-          transition-all duration-700
+          transition-colors duration-700
         "
       >
         <div className="relative w-full max-w-md transition-colors duration-700">
@@ -159,12 +159,13 @@ export const Login = () => {
           <form
             onSubmit={handleSubmit}
             className="
-              relative z-20 w-full p-8 rounded-xl shadow-2xl space-y-6
-              transition-all ease-in-out duration-1000
+              relative z-20 w-auto p-8 rounded-xl shadow-2xl space-y-6
+              transition-all duration-300
               bg-gradient-to-br
               from-white/70 via-pink-50 to-white/70
               dark:from-gray-800 dark:via-gray-700 dark:to-gray-800
               backdrop-blur-md
+              m-5
             "
           >
             <h2 className="text-3xl font-extrabold text-center text-blue-600 dark:text-blue-400">

@@ -118,7 +118,7 @@ export const AddNote = () => {
   return (
     <div className="min-h-screen dark:bg-gray-900 bg-gradient-to-br from-pink-100 via-white to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-700 flex justify-center items-start p-8">
       <DarkModeToggle />
-      <div className="w-full max-w-lg bg-white dark:bg-gray-800 p-8 rounded-xl shadow-2xl backdrop-blur-md transition-all duration-700">
+      <div className="w-full max-w-lg bg-white dark:bg-gray-800 p-8 rounded-xl shadow-2xl backdrop-blur-md transition-all duration-700 mt-10">
         <div className="flex justify-between items-center mb-6">
           <button
             onClick={() => navigate("/notes")}

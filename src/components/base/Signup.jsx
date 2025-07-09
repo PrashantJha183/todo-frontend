@@ -133,7 +133,16 @@ export const Signup = () => {
     <>
       <DarkModeToggle />
 
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-100 via-white to-pink-50 dark:bg-gray-900 transition-colors duration-700">
+      <div
+        className="
+          min-h-screen
+          flex items-center justify-center
+          bg-gradient-to-br
+          from-pink-100 via-white to-pink-50
+          dark:from-gray-900 dark:via-gray-800 dark:to-gray-900
+          transition-colors duration-700
+        "
+      >
         <div className="relative w-full max-w-md">
           {isLoading && (
             <div className="absolute inset-0 z-10 flex items-center justify-center rounded-xl backdrop-blur-sm bg-white/50 dark:bg-gray-800/50">
@@ -145,19 +154,16 @@ export const Signup = () => {
             onSubmit={handleSubmit}
             className="
               relative z-20
-              w-full
+              w-auto
               p-8
               rounded-xl
               shadow-2xl
               space-y-6
               transition-all
-              duration-700
-              bg-gradient-to-br
-              from-white/70
-              via-pink-50
-              to-white/70
-              dark:bg-gray-800
-              backdrop-blur-md
+              duration-300
+              bg-gradient-to-br from-white/70 via-pink-50 to-white/70 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800
+
+              m-5
             "
           >
             <h2 className="text-3xl font-extrabold text-center text-blue-600 dark:text-blue-400">
